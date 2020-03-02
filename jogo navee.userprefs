@@ -1,0 +1,24 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\jogo nave\Meteoro_controler.js">
+    <Files>
+      <File FileName="Assets\Scripts\jogo nave\Botao restart.js" Line="1" Column="1" />
+      <File FileName="Assets\Standard Assets\ParticleSystems\Scripts\Hose.cs" Line="7" Column="1" />
+      <File FileName="Assets\Scripts\jogo nave\GameOverAds.cs" Line="40" Column="9" />
+      <File FileName="Assets\Scripts\jogo nave\PlaneLevel.js" Line="42" Column="38" />
+      <File FileName="Assets\Scripts\jogo nave\nave\nave.js" Line="19" Column="5" />
+      <File FileName="Assets\Scripts\jogo nave\Meteoro_controler.js" Line="40" Column="1" />
+      <File FileName="Assets\Scripts\jogo nave\nave\descidaNave.js" Line="13" Column="28" />
+      <File FileName="Assets\Scripts\jogo nave\Damage.js" Line="17" Column="1" />
+      <File FileName="Assets\Scripts\jogo nave\gameover.js" Line="11" Column="2" />
+      <File FileName="Assets\Standard Assets\CrossPlatformInput\Scripts\CrossPlatformInputManager.cs" Line="167" Column="3" />
+      <File FileName="Assets\Scripts\jogo nave\setaRotation.js" Line="11" Column="27" />
+      <File FileName="Assets\Scripts\jogo nave\Meteoro_controler2.js" Line="15" Column="17" />
+      <File FileName="Assets\Scripts\jogo nave\Meteoro_movimento.js" Line="13" Column="17" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

@@ -5,7 +5,7 @@
 	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
 	<ProductVersion>10.0.20506</ProductVersion>
 	<SchemaVersion>2.0</SchemaVersion>
-	<ProjectGuid>{7B0D33BE-CAB2-7828-6B5D-CF14ADC31B5E}</ProjectGuid>
+	<ProjectGuid>{F6EC0E71-94F8-5829-6D51-6FF8F98CD0FD}</ProjectGuid>
 	<OutputType>Library</OutputType>
 	<AppDesignerFolder>Properties</AppDesignerFolder>
 	<RootNamespace></RootNamespace>
@@ -19,7 +19,7 @@
 	<DebugType>full</DebugType>
 	<Optimize>false</Optimize>
 	<OutputPath>Temp\bin\Debug\</OutputPath>
-	<DefineConstants>DEBUG;TRACE;UNITY_5_1_1;UNITY_5_1;UNITY_5;ENABLE_NEW_BUGREPORTER;ENABLE_2D_PHYSICS;ENABLE_4_6_FEATURES;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_PHYSICS_PHYSX3;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_LICENSE;ENABLE_AUDIOMIXER_SUSPEND;ENABLE_EDITOR_METRICS;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;INCLUDE_DIRECTX12;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_LOCALIZATION;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_TEXTUREID_MAP;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN</DefineConstants>
+	<DefineConstants>DEBUG;TRACE;UNITY_5_1_1;UNITY_5_1;UNITY_5;ENABLE_NEW_BUGREPORTER;ENABLE_2D_PHYSICS;ENABLE_4_6_FEATURES;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_PHYSICS_PHYSX3;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_LICENSE;ENABLE_AUDIOMIXER_SUSPEND;ENABLE_EDITOR_METRICS;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;INCLUDE_DIRECTX12;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_LOCALIZATION;UNITY_ANDROID;UNITY_ANDROID_API;ENABLE_SUBSTANCE;ENABLE_TEXTUREID_MAP;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_MONO;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;CROSS_PLATFORM_INPUT;MOBILE_INPUT</DefineConstants>
 	<ErrorReport>prompt</ErrorReport>
 	<WarningLevel>4</WarningLevel>
 	<NoWarn>0169</NoWarn>
@@ -46,13 +46,47 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\KY_effects\Script\ConGUI.js" />
-     <Compile Include="Assets\KY_effects\Script\Lighting.js" />
-     <None Include="Assets\Modular Space Raider\readme.txt" />
-     <None Include="Assets\Modular Space Raider\Shader\how_to_use.txt" />
-     <None Include="Assets\stg_basic_pics\document_and_picturelist\readme.txt" />
-     <None Include="Assets\Modular Space Raider\Shader\Dynamic_Illum_Spec.shader" />
-     <None Include="Assets\KY_effects\MagicEffectsPackFree\ReadMe.txt" />
+     <Compile Include="Assets\Particles\Legacy Particles\TimedObjectDestructor.js" />
+     <Compile Include="Assets\Scripts\jogo nave\Botao play.js" />
+     <Compile Include="Assets\Scripts\jogo nave\Botao restart.js" />
+     <Compile Include="Assets\Scripts\jogo nave\Botao voltar.js" />
+     <Compile Include="Assets\Scripts\jogo nave\CanvasBestScore.js" />
+     <Compile Include="Assets\Scripts\jogo nave\CanvasScore.js" />
+     <Compile Include="Assets\Scripts\jogo nave\CanvasScoreGameOver.js" />
+     <Compile Include="Assets\Scripts\jogo nave\Damage.js" />
+     <Compile Include="Assets\Scripts\jogo nave\Exit.js" />
+     <Compile Include="Assets\Scripts\jogo nave\Meteoro_controler.js" />
+     <Compile Include="Assets\Scripts\jogo nave\Meteoro_controler2.js" />
+     <Compile Include="Assets\Scripts\jogo nave\Meteoro_movimento.js" />
+     <Compile Include="Assets\Scripts\jogo nave\PlaneLevel.js" />
+     <Compile Include="Assets\Scripts\jogo nave\gameover.js" />
+     <Compile Include="Assets\Scripts\jogo nave\menu\menu.js" />
+     <Compile Include="Assets\Scripts\jogo nave\nave\Arma_Script.js" />
+     <Compile Include="Assets\Scripts\jogo nave\nave\Tiro_Script.js" />
+     <Compile Include="Assets\Scripts\jogo nave\nave\descidaNave.js" />
+     <Compile Include="Assets\Scripts\jogo nave\nave\nave.js" />
+     <Compile Include="Assets\Scripts\jogo nave\select_modo\botaoVoltar2.js" />
+     <Compile Include="Assets\Scripts\jogo nave\select_modo\select_modo.js" />
+     <Compile Include="Assets\Scripts\jogo nave\select_nave\CanvasMensagemCadeado.js" />
+     <Compile Include="Assets\Scripts\jogo nave\select_nave\CanvasMensagens.js" />
+     <Compile Include="Assets\Scripts\jogo nave\select_nave\cadeado.js" />
+     <Compile Include="Assets\Scripts\jogo nave\select_nave\lamp1.js" />
+     <Compile Include="Assets\Scripts\jogo nave\select_nave\lamp2.js" />
+     <Compile Include="Assets\Scripts\jogo nave\select_nave\nave escolhida.js" />
+     <Compile Include="Assets\Scripts\jogo nave\select_nave\nave_rotation1.js" />
+     <Compile Include="Assets\Scripts\jogo nave\select_nave\nave_rotation2.js" />
+     <Compile Include="Assets\Scripts\jogo nave\select_nave\selectNave.js" />
+     <Compile Include="Assets\Scripts\jogo nave\setaRotation.js" />
+     <Compile Include="Assets\Scripts\jogo nave\touch\touchLeft.js" />
+     <Compile Include="Assets\Scripts\jogo nave\touch\touchRight.js" />
+     <Compile Include="Assets\Scripts\jogo nave\touch\touchShoot.js" />
+     <None Include="Assets\Particles\Sources\Shaders\Particle Alpha Blend (Queue +100).shader" />
+     <None Include="Assets\Standard Assets\ParticleSystems\Shaders\PriorityParticleAlpha.shader" />
+     <None Include="Assets\PrimitivePlus\Documentation\ReadMe.txt" />
+     <None Include="Assets\Standard Assets\ParticleSystems\ParticleSystemsGuidelines.txt" />
+     <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
+     <None Include="Assets\Standard Assets\ParticleSystems\Shaders\PriorityParticleAddSoft.shader" />
+     <None Include="Assets\Standard Assets\ParticleSystems\Shaders\PriorityParticleAdd.shader" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
@@ -65,6 +99,10 @@
  <Reference Include="UnityEditor.iOS.Extensions.Xcode">
  <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
  </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{A4B39C76-7D41-A872-B8BB-8C276FB75266}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
