@@ -1,0 +1,8 @@
+The package features a custom shader, that lets you change a specific color on your texture to a different one. This allows you to have differently colored objects without the need to change the source texture.
+
+The shader is called Dynamic_Illum_Specular and can be found under MHShaders when you set it on your material. As it stands, the shader accepts an RGBA texture for color and gloss (specular) and also an RGB texture for illumination.
+In Textures folder you can find a texture called ModularSpaceRaider2_diffuse+spec, which is made specially to work with this shader.
+Inspect ModularSpaceRaiderColored_Material in Materials folder to view the shader's settings.
+By default, the shader will colorize the red color on a texture (source channel is set to 1/0/0/0), but you can define it to be green (0/1/0/0) or blue (0/0/1/0) too if you need. 
+Changing Source Color Margin defines the range of nearby colors that are being affected - for my texture 0.79 works best, too low value colorizes everything, too high may produce artifacts. See what looks right for you and adjust accordingly.
+New color basically lets you pick a color to replace the default red one with. Any color is permitted and lighter/darker shades will also be visible on the colorized material.
